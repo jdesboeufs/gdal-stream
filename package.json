@@ -1,0 +1,41 @@
+{
+  "name": "gdal-stream",
+  "version": "0.1.0",
+  "description": "Using GDAL datasources as streams",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "gdal": "^0.6.0",
+    "readable-stream": "^2.0.2",
+    "srs": "^0.4.8"
+  },
+  "devDependencies": {
+    "babel": "^5.8.12",
+    "eslint": "^0.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "compile": "babel src -d lib",
+    "travis-ci": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdesboeufs/gdal-stream.git"
+  },
+  "keywords": [
+    "GDAL",
+    "OGR",
+    "ETL",
+    "reader",
+    "writer",
+    "streams",
+    "GIS"
+  ],
+  "bugs": {
+    "url": "https://github.com/jdesboeufs/gdal-stream/issues"
+  },
+  "homepage": "https://github.com/jdesboeufs/gdal-stream",
+  "author": "Jerome Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT"
+}
