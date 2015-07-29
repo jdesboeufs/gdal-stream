@@ -20,6 +20,11 @@
     "travis-ci": "npm run lint",
     "prepublish": "npm run compile"
   },
+  "files": [
+    "lib",
+    "index.js",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jdesboeufs/gdal-stream.git"
